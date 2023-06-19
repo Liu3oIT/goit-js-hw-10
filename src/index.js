@@ -30,7 +30,7 @@ function hideLoader() {
 
 function displayCatInfo(cat) {
   if (!cat) {
-    Notiflix.Report.failure('Failed to fetch cat information.');
+    Notiflix.Notify.failure('Oops! Something went wrong!');
     catInfo.innerHTML = '';
     return;
   }
